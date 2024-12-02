@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h1>Olá!<br>Seja bem-vindo(a) ao FinanceFlow.</h1>
+      <p>Faça login para continuar acessando a página.</p>
+    </div>
+    <div class="right-panel">
+      <div class="form-container">
+        <img src="logo.jpeg" alt="Logo" class="logo">
+       
+        <form onsubmit="event.preventDefault(); login();">
+            <input type="email" id="email" placeholder="Digite seu email" required>
+            <input type="password" id="senha" placeholder="Digite sua senha" required>
+            <button type="submit" class="btn">Entrar</button>
+
+            <button type="button" class="clear" id="recover-password-button" onclick="recoverPassword()">Recuperar senha</button>
+        </form>
+        
+
+          <div class="separator">ou faça login com</div>
+          <button type="button" class="google-login" > <img src="google.png " width="15px" alt="Google">       Entrar com Google</button>
+
+          <p>Não tem uma conta? <a href="signup.html">Crie uma</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyC0Pn2jeHJ2Z5lNGntrzztyf79nY3xn81Q",
+    authDomain: "financeflow-ae132.firebaseapp.com",
+    projectId: "financeflow-ae132",
+    storageBucket: "financeflow-ae132.firebasestorage.app",
+    messagingSenderId: "355394671724",
+    appId: "1:355394671724:web:ada67a3373d2a16832b449",
+    measurementId: "G-7RPQES998M"
+  };
+  firebase.initializeApp(firebaseConfig);
+  
+</script>
+</html>

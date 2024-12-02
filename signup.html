@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Cadastro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h1>Bem-vindo!</h1>
+      <p>Crie sua conta para acessar a plataforma.</p>
+    </div>
+    <div class="right-panel">
+      <div class="form-container">
+        <img src="logo.jpeg" alt="Logo" class="logo">
+        <form>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="password">Senha:</label>
+          <input type="password" id="password" placeholder="A senha deve ter pelo menos 6 dígitos" name="password" required>
+
+          <label for="confirm-password">Confirmar Senha:</label>
+          <input type="password" id="confirm-password"  placeholder="A senha deve ter pelo menos 6 dígitos"name="confirm-password" required>
+
+          <button type="submit" class="btn">Cadastrar</button>
+
+          <p>Já tem uma conta? <a href="index.html">Faça login</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<link rel="stylesheet" href="signup.css">
+</html>
