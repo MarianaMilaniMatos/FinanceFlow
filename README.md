@@ -1,6 +1,6 @@
 # 🌟 **FinanceFlow** 🌟  
 
-![FinanceFlow Logo](logo.jpeg)
+![FinanceFlow Logo](logointeira.jpeg)
 
 **FinanceFlow** é uma aplicação web projetada para ajudar os usuários a gerenciar suas finanças de forma eficiente e organizada.  
 Esta versão inicial oferece funcionalidades básicas de autenticação e será ampliada para incluir APIs CRUD em **Node.js**, oferecendo uma experiência ainda mais completa no futuro.  
